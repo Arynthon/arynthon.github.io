@@ -24,7 +24,7 @@ body {
   align-items: center;
   padding: 1rem 2rem;
   background: #111;
-  border-bottom: 1px solid #0f0;
+  border-bottom: 1px solid #0080ff;
 }
 .logo {
   font-size: 1.5rem;
@@ -36,12 +36,12 @@ body {
 }
 .nav-links li a {
   text-decoration: none;
-  color: #0f0;
+  color: #0080ff;
   transition: color 0.3s ease;
 }
 .nav-links li a:hover {
-  color: #0f0;
-  text-shadow: 0 0 8px #0f0;
+  color: #0080ff;
+  text-shadow: 0 0 8px #0080ff;
 }
 
 /* HERO SECTION */
@@ -63,7 +63,7 @@ body {
 .glitch {
   font-size: 2.5rem;
   position: relative;
-  color: #0f0;
+  color: #0080ff;
   text-transform: uppercase;
 }
 .glitch::before,
@@ -71,7 +71,7 @@ body {
   content: attr(data-text);
   position: absolute;
   left: 0;
-  color: #0f0;
+  color: #0080ff;
   background: #000;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
@@ -108,15 +108,15 @@ body {
 .btn-glow {
   display: inline-block;
   padding: 0.75rem 1.25rem;
-  color: #0f0;
-  border: 1px solid #0f0;
+  color: #0080ff;
+  border: 1px solid #0080ff;
   text-decoration: none;
   font-weight: bold;
   margin-top: 1rem;
   transition: background 0.3s ease, color 0.3s ease;
 }
 .btn-glow:hover {
-  background: #0f0;
+  background: #0080ff;
   color: #000;
 }
 
@@ -126,8 +126,8 @@ body {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
-  border-top: 1px solid #0f0;
-  border-bottom: 1px solid #0f0;
+  border-top: 1px solid #0080ff;
+  border-bottom: 1px solid #0080ff;
 }
 .about h2 {
   margin-bottom: 1rem;
@@ -157,7 +157,7 @@ body {
 .project-card {
   background: #111;
   padding: 2rem;
-  border: 1px solid #0f0;
+  border: 1px solid #0080ff;
   border-radius: 5px;
 }
 .project-card h3 {
@@ -186,11 +186,11 @@ body {
   margin-bottom: 0.5rem;
 }
 .contact li a {
-  color: #0f0;
+  color: #0080ff;
   text-decoration: none;
 }
 .contact li a:hover {
-  text-shadow: 0 0 5px #0f0;
+  text-shadow: 0 0 5px #0080ff;
 }
 
 /* FOOTER */
@@ -198,7 +198,7 @@ footer {
   padding: 1rem;
   text-align: center;
   background: #111;
-  border-top: 1px solid #0f0;
+  border-top: 1px solid #0080ff;
 }
 footer p {
   font-size: 0.9rem;
